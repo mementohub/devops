@@ -5,7 +5,7 @@ MAINTAINER bogdan.cismariu@imemento.com
 RUN apk update \
     \
     # installing basic utilities
-    && apk add --no-cache curl jq python py-pip openssh git \
+    && apk add --no-cache curl jq python py-pip openssh git bash gawk sed grep bc coreutils \
     \
     # awscli
     && pip install awscli \
